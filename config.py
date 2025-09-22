@@ -1,4 +1,3 @@
-# config.py - Configuración del juego
 import pygame
 
 # Dimensiones y configuración visual
@@ -29,4 +28,5 @@ COLORS = [
 ]
 
 # Configuración del agente
+
 MOVE_DELAY = 500  # ms entre movimientos del agente
