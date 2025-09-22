@@ -1,4 +1,3 @@
-# game.py - Lógica del juego y componentes visuales
 import pygame
 import random
 import time
@@ -184,4 +183,5 @@ class MemoriceGame:
         # Botón Reiniciar
         pygame.draw.rect(screen, YELLOW, (WIDTH//2 - 75, HEIGHT - 100, 150, 50))
         reset_text = self.font.render("Reiniciar", True, BLACK)
+
         screen.blit(reset_text, (WIDTH//2 - reset_text.get_width()//2, HEIGHT - 85))
