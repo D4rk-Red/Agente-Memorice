@@ -1,4 +1,3 @@
-# main.py - Archivo principal que ejecuta el juego
 import pygame
 import sys
 from game import MemoriceGame
@@ -144,4 +143,5 @@ class GameController:
 
 if __name__ == "__main__":
     controller = GameController()
+
     controller.run()
