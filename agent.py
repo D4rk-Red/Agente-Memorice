@@ -1,4 +1,3 @@
-# agent.py - Agente de búsqueda para resolver el juego
 from collections import deque
 import time
 
@@ -119,4 +118,5 @@ class MemoriceAgent:
             'steps_total': len(self.solution_path),
             'steps_current': self.current_step,
             'search_time': self.search_time
+
         }
